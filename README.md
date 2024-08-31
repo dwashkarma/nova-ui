@@ -7,5 +7,5 @@ Ui-library is an open source react component library that implements new design'
 Install the necessary packages in your project directory with:
 
 ```bash
-npm install <ui-libraries>
+npm install ui-libraries
 ```
