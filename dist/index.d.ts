@@ -12,5 +12,13 @@ declare function Button({ children, onClick, color, }: {
     color?: string;
 }): react_jsx_runtime.JSX.Element;
 
-export { Button, ModalComponent as Modal };
+declare function Carousel({ children }: {
+    children: React.ReactNode;
+}): react_jsx_runtime.JSX.Element;
+
+declare function CarouselCard({ children }: {
+    children: React.ReactNode;
+}): react_jsx_runtime.JSX.Element;
+
+export { Button, Carousel, CarouselCard, ModalComponent as Modal };
 //# sourceMappingURL=index.d.ts.map
