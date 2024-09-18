@@ -38,7 +38,7 @@ function Modal({
     <div className="relative">
       {open && (
         <>
-          <div className="fixed inset-0 flex items-center justify-center p-4">
+          <div className="fixed bg-black bg-opacity-50 inset-0 flex items-center justify-center p-4">
             <div
               ref={modalRef}
               className={`${className} bg-white flex flex-col items-start rounded-lg border shadow p-6 w-full max-w-md animate__animated animate__fadeIn animate__faster`}
