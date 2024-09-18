@@ -54,7 +54,7 @@ color (string): Defines the button color (e.g., "primary","secondary", "error").
 
 <br>
 
-Modal:
+<b>Modal:</b>
 A modal dialog component for displaying overlay content.
 
 Props:
