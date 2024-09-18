@@ -45,14 +45,15 @@ export default Page;
 
 ## Components
 
-Button
+<b>Button:</b>
 A versatile button component with customizable properties.
 
 Props:
 
 onClick (function): Callback function triggered when the button is clicked.
 color (string): Defines the button color (e.g., "primary","secondary", "error").
-Modal
+<br>
+Modal:
 A modal dialog component for displaying overlay content.
 
 Props:
