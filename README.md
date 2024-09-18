@@ -49,8 +49,9 @@ export default Page;
 A versatile button component with customizable properties.
 
 Props:
-onClick (function): Callback function triggered when the button is clicked.
-color (string): Defines the button color (e.g., "primary","secondary", "error").
+
+1. onClick (function): Callback function triggered when the button is clicked.
+2. color (string): Defines the button color (e.g., "primary","secondary", "error").
 
 <br>
 
@@ -59,8 +60,8 @@ A modal dialog component for displaying overlay content.
 
 Props:
 
-onClose (function): Callback function triggered when the modal is closed.
-open (boolean): Controls the visibility of the modal.
+1. onClose (function): Callback function triggered when the modal is closed.
+2. open (boolean): Controls the visibility of the modal.
 
 ## Styles
 
