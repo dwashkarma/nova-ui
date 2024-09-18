@@ -1,24 +1,18 @@
 import * as react_jsx_runtime from 'react/jsx-runtime';
 
-declare function ModalComponent({ label, children, icon, }: {
-    label?: string;
+declare function Modal({ children, open, onClose, className, }: {
     children?: React.ReactNode;
-    icon?: any;
+    open: true | false;
+    onClose: () => void;
+    className?: string;
 }): react_jsx_runtime.JSX.Element;
 
-declare function Button({ children, onClick, color, }: {
+declare function Button({ children, onClick, className, color, }: {
     children: React.ReactNode;
     onClick?: React.MouseEventHandler<HTMLButtonElement>;
-    color?: string;
+    className?: string;
+    color?: "primary" | "secondary" | "error";
 }): react_jsx_runtime.JSX.Element;
 
-declare function Carousel({ children }: {
-    children: React.ReactNode;
-}): react_jsx_runtime.JSX.Element;
-
-declare function CarouselCard({ children }: {
-    children: React.ReactNode;
-}): react_jsx_runtime.JSX.Element;
-
-export { Button, Carousel, CarouselCard, ModalComponent as Modal };
+export { Button, Modal };
 //# sourceMappingURL=index.d.ts.map
